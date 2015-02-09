@@ -22,7 +22,7 @@ paginate:	5
 url: "http://rolinyan.github.io" # the base hostname & protocol for your site
 baseurl: 
 
-timezone: CN
+timezone: Asia/Shanghai
 
 # social icons and sharing options
 social:
