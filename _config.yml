@@ -3,9 +3,9 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Rolin Yan's Ruby Recipes"
+title: "Rolin Yan's Blog"
 description: > # this means to ignore newlines until "email:"
-  Code from Learning Ruby.
+  Welcome to my Blog.
 
 email: rolinyan@qq.com
 #blog logo
@@ -19,8 +19,8 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://rolinyan.github.io/ruby_recipes" # the base hostname & protocol for your site
-baseurl: "/ruby_recipes"
+url: "http://rolinyan.github.io" # the base hostname & protocol for your site
+baseurl: 
 
 # social icons and sharing options
 social:
