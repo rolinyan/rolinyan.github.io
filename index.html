@@ -30,7 +30,7 @@ layout: default
               <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
             </section>
             <div class="post-meta">
-              <time datetime="{{ post.date}}">{{ post.date}}</time>
+              <time datetime="{{ post.date | | date: "%R-%F" }}">{{ post.date | date_to_string }}</time>
             </div>
           </div>
         </article>
